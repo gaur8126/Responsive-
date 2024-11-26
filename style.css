@@ -1,0 +1,40 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to center content */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Responsive typography */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Responsive video capture size */
+#capture {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+}
